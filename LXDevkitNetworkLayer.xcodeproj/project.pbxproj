@@ -17,6 +17,7 @@
 		CEB1EECA2A49C7A000DB4523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EEC82A49C7A000DB4523 /* Main.storyboard */; };
 		CEB1EECC2A49C7A100DB4523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EECB2A49C7A100DB4523 /* Assets.xcassets */; };
 		CEB1EECF2A49C7A100DB4523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EECD2A49C7A100DB4523 /* LaunchScreen.storyboard */; };
+		CEBF6B442A4AC3410088BB95 /* ExampleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF6B432A4AC3410088BB95 /* ExampleFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		CEB1EECB2A49C7A100DB4523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB1EECE2A49C7A100DB4523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB1EED02A49C7A100DB4523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBF6B432A4AC3410088BB95 /* ExampleFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CEB1EEA52A49C79000DB4523 /* LXDevkitNetworkLayer.h */,
 				CEB1EEA62A49C79000DB4523 /* LXDevkitNetworkLayer.docc */,
+				CEBF6B432A4AC3410088BB95 /* ExampleFile.swift */,
 			);
 			path = LXDevkitNetworkLayer;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBF6B442A4AC3410088BB95 /* ExampleFile.swift in Sources */,
 				CEB1EEA72A49C79000DB4523 /* LXDevkitNetworkLayer.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -497,6 +501,7 @@
 		CEB1EEBA2A49C79000DB4523 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -512,6 +517,7 @@
 		CEB1EEBB2A49C79000DB4523 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
